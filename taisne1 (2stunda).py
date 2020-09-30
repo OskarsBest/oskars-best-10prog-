@@ -30,4 +30,4 @@ elif (y2-y1)==0:
 else:
     a2=-1/a
     b2=y3-a2*x3
-    print("y={:-3f}x + {:.3f}"+str(b2).format(a2))
+    print("y={1:-3f}x + {0:.3f}"+str(b2).format(a2))
